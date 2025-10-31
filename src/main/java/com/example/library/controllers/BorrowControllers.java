@@ -36,7 +36,7 @@ public class BorrowControllers {
 		return borrowservice.getAllBorrowedBooks();
 	}
 	
-	@GetMapping("/borror/{id}")
+	@GetMapping("/borrow/{id}")
 	public BorrowResponseDTO getBorrowById(@PathVariable int id) {
 		return borrowservice.getBorrowById(id);
 		
